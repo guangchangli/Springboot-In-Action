@@ -4,7 +4,7 @@ import com.github.pagehelper.PageInfo;
 
 public class PageUtils {
 
-    public static PageResponse getPageResult(PageRequest pageRequest, PageInfo<?> pageInfo) {
+    public static PageResponse getPageResult(PageInfo<?> pageInfo) {
         PageResponse pageResponse = new PageResponse();
         pageResponse.setPageNum(pageInfo.getPageNum());
         pageResponse.setPageSize(pageInfo.getPageSize());
